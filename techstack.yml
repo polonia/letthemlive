@@ -1,0 +1,376 @@
+repo_name: polonia/letthemlive
+report_id: 1d8efa955359380bb6057be5ba8f5868
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-06T10:01:28+00:00'
+requested_by: edreams
+provider: github
+branch: master
+detected_tools_count: 29
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/polonia/letthemlive
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/polonia/letthemlive
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/polonia/letthemlive
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  version: 14.0.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/polonia/letthemlive/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Louvivien
+  last_updated_on: 2023-07-23 18:16:45.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/polonia/letthemlive/blob/master/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: YousraMashkoor
+  last_updated_on: 2023-07-30 18:25:23.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 6.14.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/polonia/letthemlive/blob/master/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: YousraMashkoor
+  last_updated_on: 2023-07-30 18:25:23.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/polonia/letthemlive/blob/master/server/requirements.txt
+  detection_source: server/requirements.txt
+  last_updated_by: YousraMashkoor
+  last_updated_on: 2023-07-30 08:19:03.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/polonia/letthemlive/blob/master/server/requirements.txt
+  detection_source: server/requirements.txt
+  last_updated_by: louvivien
+  last_updated_on: 2023-07-16 00:13:54.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/polonia/letthemlive
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/polonia/letthemlive
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/polonia/letthemlive/blob/master/server/requirements.txt
+  detection_source: server/requirements.txt
+  last_updated_by: louvivien
+  last_updated_on: 2023-06-10 13:52:58.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/polonia/letthemlive/blob/master/client/package.json
+  detection_source: client/package.json
+  last_updated_by: YousraMashkoor
+  last_updated_on: 2023-07-30 18:25:23.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  website_url: https://python-pillow.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/polonia/letthemlive/blob/master/server/requirements.txt
+  detection_source: server/requirements.txt
+  last_updated_by: louvivien
+  last_updated_on: 2023-07-16 00:13:54.000000000 Z
+- name: Jupyter
+  description: Multi-language interactive computing environments.
+  website_url: http://jupyter.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Science Notebooks
+  image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source_url: https://github.com/polonia/letthemlive
+  detection_source: Repo Metadata
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/polonia/letthemlive/blob/master/server/requirements.txt
+  detection_source: server/requirements.txt
+  last_updated_by: louvivien
+  last_updated_on: 2023-06-10 13:52:58.000000000 Z
+- name: gunicorn
+  description: WSGI HTTP Server for UNIX
+  package_url: https://pypi.org/project/gunicorn
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19931/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
+  detection_source_url: https://github.com/polonia/letthemlive/blob/master/server/requirements.txt
+  detection_source: server/requirements.txt
+  last_updated_by: Louvivien
+  last_updated_on: 2023-07-23 18:38:39.000000000 Z
+- name: langchain
+  description: Building applications with LLMs through composability
+  package_url: https://pypi.org/project/langchain
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/polonia/letthemlive/blob/master/server/requirements.txt
+  detection_source: server/requirements.txt
+  last_updated_by: Louvivien
+  last_updated_on: 2023-07-31 12:43:05.000000000 Z
+- name: openai
+  description: The official Python library for the openai API
+  package_url: https://pypi.org/project/openai
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/polonia/letthemlive/blob/master/server/requirements.txt
+  detection_source: server/requirements.txt
+  last_updated_by: louvivien
+  last_updated_on: 2023-07-16 00:13:54.000000000 Z
+- name: pydantic
+  description: Data validation and settings management using python 3.6 type hinting
+  package_url: https://pypi.org/project/pydantic
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/polonia/letthemlive/blob/master/server/requirements.txt
+  detection_source: server/requirements.txt
+  last_updated_by: louvivien
+  last_updated_on: 2023-07-17 15:28:36.000000000 Z
+- name: pymongo
+  description: Python driver for MongoDB &lt;http://www.mongodb.org&gt;
+  package_url: https://pypi.org/project/pymongo
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19865/default_7975a21f3bf03129dc3bc4168cf7cb7ee2cc14cc.png
+  detection_source_url: https://github.com/polonia/letthemlive/blob/master/server/requirements.txt
+  detection_source: server/requirements.txt
+  last_updated_by: YousraMashkoor
+  last_updated_on: 2023-07-30 08:19:03.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/polonia/letthemlive/blob/master/server/requirements.txt
+  detection_source: server/requirements.txt
+  last_updated_by: louvivien
+  last_updated_on: 2023-06-10 13:52:58.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.17.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/polonia/letthemlive/blob/master/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: YousraMashkoor
+  last_updated_on: 2023-07-30 18:25:23.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 13.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/polonia/letthemlive/blob/master/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: YousraMashkoor
+  last_updated_on: 2023-07-30 18:25:23.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/polonia/letthemlive/blob/master/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: YousraMashkoor
+  last_updated_on: 2023-07-30 18:25:23.000000000 Z
+- name: react-icons
+  description: SVG React icons of popular icon packs using ES6 imports
+  package_url: https://www.npmjs.com/react-icons
+  version: 4.10.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16909/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source_url: https://github.com/polonia/letthemlive/blob/master/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: YousraMashkoor
+  last_updated_on: 2023-07-30 18:25:23.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 6.14.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/polonia/letthemlive/blob/master/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: YousraMashkoor
+  last_updated_on: 2023-07-30 18:25:23.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/polonia/letthemlive/blob/master/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: YousraMashkoor
+  last_updated_on: 2023-07-30 18:25:23.000000000 Z
+- name: gpt2
+  description: Gpt2
+  package_url: https://huggingface.co/spaces/gpt2
+  license: mit
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: AI Hub
+  image_url: https://img.stackshare.io/package/hugging-face-hub/image.png
+  detection_source_url: https://github.com/polonia/letthemlive/blob/master/server/app.py
+  detection_source: server/app.py
+  last_updated_by: Louvivien
+  last_updated_on: 2023-07-23 21:28:54.000000000 Z
+- name: nlpconnect/vit-gpt2-image-captioning
+  description: Nlpconnect/vit gpt2 image captioning
+  package_url: https://huggingface.co/spaces/nlpconnect/vit-gpt2-image-captioning
+  license: apache-2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: AI Hub
+  image_url: https://img.stackshare.io/package/hugging-face-hub/image.png
+  detection_source_url: https://github.com/polonia/letthemlive/blob/master/server/app.py
+  detection_source: server/app.py
+  last_updated_by: Louvivien
+  last_updated_on: 2023-07-31 21:01:55.000000000 Z
